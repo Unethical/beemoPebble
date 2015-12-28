@@ -1,0 +1,37 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "sepulveda.a.jose@gmail.com",
+    "longName": "BeeMo",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "fonts/monofont.ttf",
+                "name": "FONT_PERFECT_DOS_36",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "images/bmo2.png",
+                "menuIcon": true,
+                "name": "BMO_GRAY",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "B-Mo(:",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "387f5382-723d-4efe-8f49-8d89d67b1bef",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
