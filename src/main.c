@@ -45,8 +45,8 @@ static void main_window_load(Window *window) {
   
   
   // Custom font
-  //static GFont s_time_font;
-  //s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_36));
+  static GFont s_time_font;
+  s_time_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_FONT_PERFECT_DOS_40));
   
   
   // Create the TextLayer with specific bounds
@@ -64,7 +64,7 @@ static void main_window_load(Window *window) {
   text_layer_set_background_color(s_time_layer, GColorClear);
   text_layer_set_text_color(s_time_layer, GColorBlack);
   text_layer_set_text(s_time_layer, "00:00");
-  text_layer_set_font(s_time_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+  text_layer_set_font(s_time_layer, s_time_font);
   text_layer_set_text_alignment(s_time_layer, GTextAlignmentCenter);
 
   // Add it as a child layer to the Window's root layer
